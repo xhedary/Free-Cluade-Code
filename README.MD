@@ -1,277 +1,215 @@
-# 🚀 AgentRouter — Free AI Coding Credits for Claude Code, Codex & More
+# 🚀 Claude Code + Third-Party API
 
-> A practical community guide for using AgentRouter with AI coding tools such as Claude Code, Codex, Gemini CLI, OpenCode, and more.
+**🇸🇦 [العربي — اضغط هنا](README_AR.md)**
 
-[![AgentRouter](https://img.shields.io/badge/AgentRouter-AI%20Coding-blue)](https://agentrouter.org/)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-supported-purple)](https://docs.anthropic.com/en/docs/claude-code)
-[![Codex](https://img.shields.io/badge/OpenAI%20Codex-supported-green)](https://github.com/openai/codex)
+Use Claude Code with a third-party API provider in a few simple steps.
 
----
+No cracking.
+No modified Claude.
+No bypassing Claude.
+No complicated setup.
 
-## 🎁 Get Free AI Coding Credits
+You simply:
 
-If you're looking for a way to try AI coding tools without immediately paying for another API subscription, AgentRouter currently offers promotional/free credits for developers.
-
-### 👉 [Create an AgentRouter Account](https://agentrouter.org/register?aff=tWcX)
-
-**Referral disclosure:** This is a referral link. If you sign up through it, you may receive the promotional benefit offered by AgentRouter, and I may receive a referral reward.
-
-> Promotional offers, credit amounts, eligibility requirements, and referral terms can change. Check the registration page for the current offer before signing up.
+**Create an account → Get an API Key → Add the API URL → Start Claude Code.**
 
 ---
 
-## 🤖 What is AgentRouter?
+# ⭐ Recommended Providers
 
-AgentRouter is an AI coding gateway that lets developers connect coding agents to supported AI models through a unified service.
+## 1. AgentRouter
 
-It can be used with popular AI coding tools including:
+👉 **[Register AgentRouter](https://agentrouter.org/register?aff=tWcX)**
 
-* Claude Code
-* OpenAI Codex
-* Gemini CLI
-* OpenCode
-* Cline
-* Roo Code
-* Kilo Code
-* Qwen Code
-* and other supported tools
+## 2. JustWoker
 
-The official AgentRouter documentation currently lists support for multiple CLI, IDE, and coding-agent tools.
+👉 **[Register JustWoker](https://api.justwoker.icu/register?aff=gTPs)**
+
+These are the two recommended options in this guide.
+
+> Referral links: I may receive a referral reward if you register through these links.
 
 ---
 
-# ⚡ Quick Start
+# 💻 Claude Code — Terminal
 
-## 1. Create Your Account
+## 1. Install Claude Code
 
-Start here:
-
-### 👉 [Register for AgentRouter](https://agentrouter.org/register?aff=tWcX)
-
-Create your account and follow the instructions shown on the official website.
-
-After registration, open your AgentRouter dashboard and create/copy your API key.
-
----
-
-# 🧠 Claude Code
-
-If you're using Claude Code, AgentRouter can be configured as the API endpoint.
-
-### Install Claude Code
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-### Configure the API
-
-#### Windows PowerShell
+### Windows PowerShell
 
 ```powershell
-$env:ANTHROPIC_BASE_URL="https://agentrouter.org/"
-$env:ANTHROPIC_AUTH_TOKEN="YOUR_AGENTROUTER_API_KEY"
-$env:ANTHROPIC_API_KEY="YOUR_AGENTROUTER_API_KEY"
+irm https://claude.ai/install.ps1 | iex
 ```
 
-#### macOS / Linux
+### macOS / Linux
 
 ```bash
-export ANTHROPIC_BASE_URL="https://agentrouter.org/"
-export ANTHROPIC_AUTH_TOKEN="YOUR_AGENTROUTER_API_KEY"
-export ANTHROPIC_API_KEY="YOUR_AGENTROUTER_API_KEY"
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-Then start Claude Code:
+---
 
-```bash
-claude
-```
+## 2. Get Your API Key
 
-> Always check the current AgentRouter documentation for the latest endpoint and authentication configuration.
+Create an account with one of the providers above and get your API key.
 
 ---
 
-# 💻 OpenAI Codex
+## 3. Connect Claude Code
 
-AgentRouter can also be used with Codex.
+### Windows PowerShell
 
-### Install Codex
-
-```bash
-npm install -g @openai/codex
-```
-
-Then configure Codex according to the current AgentRouter Codex documentation.
-
-Typical configuration involves:
-
-* AgentRouter API endpoint
-* AgentRouter API token
-* Model configuration
-
-For the latest Codex configuration:
-
-👉 **[AgentRouter Codex Documentation](https://docs.agentrouter.org/)**
-
----
-
-# 🟢 OpenCode
-
-If you use OpenCode, you can configure AgentRouter as a model/API provider.
-
-The exact configuration may change as AgentRouter and OpenCode evolve, so use the current AgentRouter documentation when configuring your account.
-
----
-
-# 🧩 Supported Coding Tools
-
-AgentRouter currently documents support for multiple AI coding tools.
-
-| Tool        | Supported |
-| ----------- | --------: |
-| Claude Code |         ✅ |
-| Codex       |         ✅ |
-| Gemini CLI  |         ✅ |
-| OpenCode    |         ✅ |
-| Cline       |         ✅ |
-| Roo Code    |         ✅ |
-| Kilo Code   |         ✅ |
-| Qwen Code   |         ✅ |
-| Trae        |         ✅ |
-
-Support and available models can change over time.
-
----
-
-# 🔑 Where Do I Get an API Key?
-
-After creating your AgentRouter account:
-
-1. Sign in to your dashboard.
-2. Open the API key/token section.
-3. Create or copy your API key.
-4. Add it to the coding tool you're using.
-5. Start your coding agent.
-
-### ⚠️ Never publish your API key
-
-Do NOT put your API key directly inside:
-
-* GitHub repositories
-* README files
-* screenshots
-* public Discord messages
-* Reddit posts
-* `.env` files committed to Git
-
-Use environment variables instead.
-
----
-
-# 🛠️ Example Environment Variables
-
-Create your environment variables locally:
-
-```bash
-ANTHROPIC_BASE_URL=https://agentrouter.org/
-ANTHROPIC_AUTH_TOKEN=YOUR_AGENTROUTER_API_KEY
-ANTHROPIC_API_KEY=YOUR_AGENTROUTER_API_KEY
+```powershell
+$env:ANTHROPIC_BASE_URL="YOUR_API_URL"
+$env:ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY"
+$env:ANTHROPIC_API_KEY=""
 ```
 
 Replace:
 
 ```text
-YOUR_AGENTROUTER_API_KEY
+YOUR_API_URL
+YOUR_API_KEY
 ```
 
-with your own key.
+with the values from your provider.
+
+### macOS / Linux
+
+```bash
+export ANTHROPIC_BASE_URL="YOUR_API_URL"
+export ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY"
+export ANTHROPIC_API_KEY=""
+```
 
 ---
 
-# ❓ FAQ
+## 4. Start Claude Code
 
-## Is AgentRouter free?
+```bash
+claude
+```
 
-AgentRouter currently provides free/promotional credits for developers, but the exact amount and eligibility can change.
+That's it. 🎉
 
-Check the registration page for the current offer.
+If Claude Code was already logged into Anthropic:
 
-## Do I need a credit card?
+```text
+/logout
+```
 
-Requirements can change depending on the current promotion and account eligibility.
-
-Check the registration flow for the latest requirements.
-
-## Can I use AgentRouter with Claude Code?
-
-Yes. Claude Code is listed among the supported tools.
-
-## Can I use AgentRouter with Codex?
-
-Yes. AgentRouter provides documentation for using it with Codex.
-
-## Can I use it with other coding agents?
-
-Yes. The official documentation currently lists several supported coding tools.
-
-## Is this an official AgentRouter repository?
-
-No.
-
-This is an independent community-created guide.
-
-The official AgentRouter website and documentation should always be considered the source of truth for current pricing, limits, supported models, and promotional offers.
+Then start Claude again.
 
 ---
 
-# 🔒 Security
+# 🖥️ Claude Desktop
 
-Never share your AgentRouter API key publicly.
+You can also use a compatible third-party API with Claude Desktop.
 
-If you accidentally expose your key:
+### 1. Enable Developer Mode
 
-1. Revoke it immediately.
-2. Generate a new key.
-3. Remove the exposed key from your repository history.
-4. Update your local environment variables.
+Open Claude Desktop:
 
----
+**Help → Troubleshooting → Enable Developer Mode**
 
-# 📚 Official Resources
+Restart Claude Desktop.
 
-* [AgentRouter](https://agentrouter.org/)
-* [AgentRouter Documentation](https://docs.agentrouter.org/)
-* [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-* [OpenAI Codex](https://github.com/openai/codex)
+### 2. Open API Settings
 
----
+Go to:
 
-# ⭐ Support This Guide
+**Developer → Configure Third-Party Inference**
 
-If this guide helped you:
+Choose:
 
-* ⭐ Star this repository
-* 🐛 Open an issue if you find an outdated instruction
-* 🔧 Submit a pull request with improvements
-* 📢 Share the guide with other developers
+**Gateway**
 
----
+### 3. Enter your API
 
-## 🎁 Ready to Try It?
+```text
+Gateway Base URL: YOUR_API_URL
+API Key: YOUR_API_KEY
+Auth Scheme: Bearer
+```
 
-### 👉 [Create Your AgentRouter Account](https://agentrouter.org/register?aff=tWcX)
+Then click:
 
-**Referral disclosure:** This is a referral link. You may receive a promotional benefit from AgentRouter, and I may receive a referral reward.
+**Apply locally**
 
-Always verify the current promotion and eligibility requirements on AgentRouter before signing up.
+Done. ✅
 
 ---
 
-## Disclaimer
+# 🔄 Using Another Provider?
 
-This repository is an independent community guide and is not affiliated with, endorsed by, or operated by AgentRouter.
+The setup is usually the same.
 
-AgentRouter's pricing, credits, models, supported tools, terms, and referral programs may change at any time.
+You only change:
 
-Always verify current information on the official AgentRouter website.
+```text
+API URL
+API KEY
+```
+
+The provider must support the **Anthropic Messages API / Claude Code**.
+
+---
+
+# 🌐 More Providers
+
+If you want to try other services:
+
+* **HelpCoder:** https://helpcoder.cc/register?aff=5yLk
+* **TokenBOM:** https://tokenbom.com/login?mode=register&invite=SS-C5882AE6
+* **BluesMinds:** https://api.bluesminds.com/sign-up?aff=QlJ3
+* **VSLMM:** https://vsllm.com/register?aff=4pUb
+
+---
+
+# 🔐 Is This Hacking?
+
+**No.**
+
+This setup does not hack Claude or modify the Claude application.
+
+You are simply using a **third-party API provider** and connecting Claude Code to its API endpoint.
+
+You still use the normal Claude Code application.
+
+### ⚠️ Important
+
+Your API key is private.
+
+Never share it on:
+
+* GitHub
+* Reddit
+* Discord
+* Screenshots
+* Public code
+
+Also avoid sending passwords, private keys, or sensitive company data through a third-party provider unless you have reviewed its privacy/security terms.
+
+---
+
+# ⚡ Super Simple
+
+```text
+Create Account
+      ↓
+Get API Key
+      ↓
+Set API URL
+      ↓
+Set API Key
+      ↓
+claude
+      ↓
+🚀 Done
+```
+
+---
+
+**🇸🇦 [العربي — اضغط هنا](README_AR.md)**
+
+⭐ If this guide helped you, consider starring the repository.
