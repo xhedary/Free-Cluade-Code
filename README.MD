@@ -1,12 +1,15 @@
+<a id="english"></a>
+
 # 🚀 Claude Code + Third-Party API
 
-🇸🇦 **[العربي ↓](#العربي)**
+🇸🇦 **[العربي ↓](#arabic)**
+
 Use Claude Code with a third-party API provider in a few simple steps.
 
-No cracking.
+**No cracking.
 No modified Claude.
 No bypassing Claude.
-No complicated setup.
+No complicated setup.**
 
 You simply:
 
@@ -208,12 +211,16 @@ claude
 ```
 
 ---
+
 ⭐ If this guide helped you, consider starring the repository.
 
-#العربي
-# 🚀 تشغيل Claude Code باستخدام API خارجي
+---
 
-**🇺🇸 [English — اضغط هنا](#English)**
+<a id="arabic"></a>
+
+# 🇸🇦 تشغيل Claude Code باستخدام API خارجي
+
+🇺🇸 **[English ↑](#english)**
 
 تشغل Claude Code باستخدام API من خدمات خارجية في كام خطوة بسيطة جدًا.
 
@@ -264,11 +271,11 @@ curl -fsSL https://claude.ai/install.sh | bash
 
 ---
 
-# 2. هات الـAPI Key
+## 2. هات الـAPI Key
 
 سجل في أي Provider من اللي فوق.
 
-بعد التسجيل هات الـ:
+بعد التسجيل هات:
 
 ```text
 API Key
@@ -276,7 +283,7 @@ API Key
 
 ---
 
-# 3. اربط Claude Code
+## 3. اربط Claude Code
 
 ### Windows PowerShell
 
@@ -305,7 +312,7 @@ export ANTHROPIC_API_KEY=""
 
 ---
 
-# 4. شغل Claude
+# ▶️ 4. شغل Claude
 
 ```bash
 claude
@@ -335,8 +342,6 @@ claude
 
 اعمل Restart للبرنامج.
 
----
-
 ## 2. افتح إعدادات الـAPI
 
 روح إلى:
@@ -346,8 +351,6 @@ claude
 اختار:
 
 **Gateway**
-
----
 
 ## 3. حط البيانات
 
@@ -405,8 +408,6 @@ API KEY
 
 يعني بتسجل حساب في خدمة خارجية، تاخد API Key، وتخلي Claude Code يستخدم الـAPI الخاص بالخدمة.
 
-Claude Code نفسه يتيح الاتصال بـLLM gateways التي توفر Anthropic Messages API.
-
 ### ⚠️ مهم جدًا
 
 الـAPI Key بتاعك **سري**.
@@ -441,7 +442,6 @@ claude
 
 ---
 
-**🇺🇸 [English — اضغط هنا](README.md)**
+🇺🇸 **[English ↑](#english)**
 
 ⭐ لو الدليل أفادك، اعمل Star للـRepository.
-
