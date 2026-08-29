@@ -1,6 +1,6 @@
 # 🚀 Claude Code + Third-Party API
 
-**🇸🇦 [العربي — اضغط هنا](README_AR.md)**
+**🇸🇦 [العربي — اضغط هنا](/README_AR.md)**
 
 Use Claude Code with a third-party API provider in a few simple steps.
 
