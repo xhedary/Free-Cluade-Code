@@ -140,6 +140,15 @@ Then click:
 
 Done. ✅
 
+> 💡 **AgentRouter Tip**
+>
+> If you already have an AgentRouter account, you can log out and visit the registration page again.
+>
+> If the **$25/day offer** is available for your account, you can register again **without a referral link** and claim the offer.
+>
+> ⚠️ Offers may vary by account and can change at any time.
+
+
 ---
 
 # 🔄 Using Another Provider?
@@ -367,6 +376,15 @@ Auth Scheme: Bearer
 🎉 **خلصت.**
 
 ---
+
+> 💡 **معلومة مهمة عن AgentRouter**
+>
+> لو عندك حساب AgentRouter بالفعل، تقدر تعمل **Logout** وتدخل صفحة التسجيل مرة تانية.
+>
+> لو عرض **$25 يوميًا** ظاهر ومتاح لحسابك، تقدر تسجل من جديد **من غير Referral Link** وتستفيد من العرض.
+>
+> ⚠️ العروض ممكن تختلف من حساب للتاني وممكن تتغير في أي وقت.
+
 
 # 🔄 عايز تستخدم Provider تاني؟
 
