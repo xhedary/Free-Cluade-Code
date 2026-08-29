@@ -210,8 +210,7 @@ claude
 ---
 ⭐ If this guide helped you, consider starring the repository.
 
-# 🇸🇦 العربي
-
+#العربي
 # 🚀 تشغيل Claude Code باستخدام API خارجي
 
 **🇺🇸 [English — اضغط هنا](#English)**
